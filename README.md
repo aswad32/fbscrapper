@@ -2,26 +2,28 @@
 
 Prerequisite:
 
-Python 2.7
-Mongodb
+1. Python 2.7
 
-Pymongo
+2. Mongodb
+
+3. Pymongo
 ``` 
 pip install pymongo
 ```
 
-Selenium Web Driver
+4. Selenium Web Driver
 ```
 pip install selenium
 ```
 
-Beautiful Soup 
+5. Beautiful Soup 
 ``` 
 pip install beautifulsoup4
 ```
-PhantomJs.exe (include in the source folder - phantomjs)
 
-moment - formatting time from epoch to mongodb utc format
+6. PhantomJs.exe (include in the source folder - phantomjs)
+
+7. moment - formatting time from epoch to mongodb utc format
 ```
 pip install moment
 ```
