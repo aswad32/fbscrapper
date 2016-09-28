@@ -10,7 +10,7 @@ from bs4 import BeautifulSoup
 
 import time
 import sys
-sys.path.insert(0, 'lib')
+sys.path.insert(0, 'functions')
 import database
 import framework
 from config import init_config
