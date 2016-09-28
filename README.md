@@ -1,22 +1,26 @@
 # Welcome to fbscrapper , experimanting with Scrapping facebook data without using API.
 
 Prerequisite:
-1. Python 2.7
-2. Mongodb
-3. Pymongo
+Python 2.7
+Mongodb
+
+Pymongo
 ``` 
 pip install pymongo
 ```
-4. Selenium Web Driver
+
+Selenium Web Driver
 ```
 pip install selenium
 ```
-5. Beautiful Soup 
+
+Beautiful Soup 
 ``` 
 pip install beautifulsoup4
 ```
-5. PhantomJs.exe (include in the source folder - phantomjs)
-6. moment - formatting time from epoch to mongodb utc format
+PhantomJs.exe (include in the source folder - phantomjs)
+
+moment - formatting time from epoch to mongodb utc format
 ```
 pip install moment
 ```
