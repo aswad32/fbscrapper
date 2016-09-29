@@ -1,5 +1,8 @@
 # Welcome to fbscrapper , experimenting with Scrapping facebook data without using API.
 
+## Important
+Please refer facebook Automated Data Collection Terms here https://www.facebook.com/apps/site_scraping_tos_terms.php?hc_location=ufi before you decide to use this script for automation. I will not responsible for anythings because I purposedly write this script for educational.
+
 ## Prerequisite:
 
 * Python 2.7
