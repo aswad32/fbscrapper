@@ -21,7 +21,7 @@ pip install selenium
 pip install beautifulsoup4
 ```
 
-* PhantomJs.exe (include in the source folder - phantomjs)
+* PhantomJs.exe (include in the source folder - phantomjs, this is for windows only, if you want to run it on linux, please check your package manager for phantomjs)
 
 * moment - formatting time from epoch to mongodb utc format
 ```
