@@ -34,12 +34,11 @@ Before running the scripts, please do change the configuration files inside conf
 ```
 username = (your facebook email)
 pwd = (your facebook password)
-query = [(array of string query)] e.g: ['digital ocean', 'nodejs'] 
 ```
 
 Once done, to start the search open up command :
 ```
-python __botfbquery__.py
+python __botfbquery__.py --qs "donal trump, digital ocean" --scroll 1
 ```
 
 
