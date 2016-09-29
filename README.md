@@ -47,6 +47,7 @@ python __botfbquery__.py --qs "donal trump, digital ocean" --scroll 1
 ```
 WindowsError: [Error 32] The process cannot access the file because it is being used by another process: 'c:\\users\\aswad\\appdata\\local\\temp\\tmpwgs9pm'
 ```
-
 Please refer to this stackoverflow link:
 http://stackoverflow.com/questions/36153007/permission-error-if-to-use-phantomjs
+
+This tools highly depends on Facebook layout, if there's a change on that, we need to revise back the code.
