@@ -1,9 +1,8 @@
 
 init_config = {
-	'username': 'your@email.com',
+	'username': 'email@gmail.com',
 	'pwd': 'password',
 	'mongodb': {
 		'host': 'mongodb://localhost:27017/'
-	},
-	'query': ['iflix']
+	}
 }

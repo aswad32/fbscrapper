@@ -10,10 +10,17 @@ from bs4 import BeautifulSoup
 
 import time
 import sys
+import argparse
 sys.path.insert(0, 'functions')
 import database
 import framework
 from config import init_config
+
+parser = argparse.ArgumentParser()
+parser.add_argument('-q', '--qs', type=str, help="String delimited keyword query", required=True)
+parser.add_argument('-s', '--scroll', type=int, help="Integer number of page scroll to trigger facebook ajax data loading", required=True)
+
+args = parser.parse_args()
 
 dcap = dict(DesiredCapabilities.PHANTOMJS)
 dcap["phantomjs.page.settings.userAgent"] = (
@@ -32,7 +39,7 @@ elem.send_keys(init_config['pwd'])
 elem.send_keys(Keys.RETURN)
 
 
-query_collection = init_config['query']
+query_collection = [qs for qs in args.qs.split(',')]
 
 for qs in query_collection:
 	print "Executing query string -> " + qs
@@ -47,7 +54,7 @@ for qs in query_collection:
 
 	driver.implicitly_wait(10)
 
-	range_max = 1; #change this variable if you want to scroll more feed from the search query
+	range_max = args.scroll;
 	for a in range(1, range_max):
 		driver.execute_script('window.scrollTo(0, document.body.scrollHeight);')
 		time.sleep(10)
