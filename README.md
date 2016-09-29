@@ -27,3 +27,12 @@ pip install beautifulsoup4
 ```
 pip install moment
 ```
+
+## Known Issues
+
+```
+WindowsError: [Error 32] The process cannot access the file because it is being used by another process: 'c:\\users\\aswad\\appdata\\local\\temp\\tmpwgs9pm'
+```
+
+Please refer to this stackoverflow link:
+http://stackoverflow.com/questions/36153007/permission-error-if-to-use-phantomjs
